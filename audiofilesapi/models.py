@@ -22,7 +22,7 @@ class song(models.Model):
         self.uploadTime = datetime.now()
 
 
-class podecast(models.Model):
+class podcast(models.Model):
     Name = models.CharField(max_length=100)
     Duration = models.IntegerField()
     uploadTime = models.DateTimeField(validators=[no_past])

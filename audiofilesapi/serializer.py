@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import song, podecast, audioBook
+from .models import song, podcast, audioBook
 
 
 class songSerializers(serializers.ModelSerializer):
@@ -8,9 +8,9 @@ class songSerializers(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class podecastSerializers(serializers.ModelSerializer):
+class podcastSerializers(serializers.ModelSerializer):
     class Meta:
-        model = podecast
+        model = podcast
         fields = '__all__'
 
 

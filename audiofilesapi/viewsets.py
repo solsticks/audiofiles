@@ -8,9 +8,9 @@ class songViewset(viewsets.ModelViewSet):
     serializer_class = serializer.songSerializers
 
 
-class podecastViewset(viewsets.ModelViewSet):
-    queryset = models.podecast.objects.all()
-    serializer_class = serializer.podecastSerializers
+class podcastViewset(viewsets.ModelViewSet):
+    queryset = models.podcast.objects.all()
+    serializer_class = serializer.podcastSerializers
 
 
 class audioBookViewset(viewsets.ModelViewSet):

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6dbdf7c6-f285-4d72-96a1-5ec010e1df11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audiofiles/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofiles/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audiofilesapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audiofilesapi/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/audiofilesapi/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audiofilesapi/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/viewsets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +60,19 @@
       <option name="project" value="LOCAL" />
       <updated>1615206281918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clean up my test cases">
+      <created>1615223292315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615223292315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added test cases for create and get" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test cases for create and get" />
+    <MESSAGE value="clean up my test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up my test cases" />
   </component>
 </project>
