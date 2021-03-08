@@ -1,9 +1,14 @@
 import json
 
+from django.test import TestCase
 from rest_framework import status
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework.reverse import reverse
 from rest_framework.test import APITestCase, APIRequestFactory
 
 from audiofilesapi.models import song, audioBook, podecast
+from audiofilesapi.serializer import songSerializers
 from audiofilesapi.viewsets import songViewset, audioBookViewset, podecastViewset
 
 
@@ -24,10 +29,4 @@ class getSong_test(APITestCase):
         response = song_details(request, pk=employee.pk)
         self.assertEqual(response.status_code, 200)
 
-# class getEmployee_test(APITestCase):
-# def test_view_set(self):
-# request = APIRequestFactory().put("")
-# employee_details = employeesViewset.as_view({'put': 'update'})
-# employee = employees.objects.create(empId=9, firstName="james", lastName="thom")
-# response = employee_details(request, pk=employee.pk)
-# self.assertEqual(response.status_code, 200)
+
