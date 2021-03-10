@@ -4,10 +4,9 @@
     <list default="true" id="6dbdf7c6-f285-4d72-96a1-5ec010e1df11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/audiofiles/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofiles/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audiofilesapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audiofilesapi/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audiofiles/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofiles/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audiofiles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofiles/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/audiofilesapi/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audiofilesapi/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/viewsets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unittests for tests.getSong_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="audiofiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/audiofilesapi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.getSong_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for tests.getSong_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,12 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1615223292315</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="made a correction to my endpoint (changed podecast -&gt; podcast)">
+      <created>1615225417484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615225417484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added test cases for create and get" />
     <MESSAGE value="clean up my test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up my test cases" />
+    <MESSAGE value="made a correction to my endpoint (changed podecast -&gt; podcast)" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a correction to my endpoint (changed podecast -&gt; podcast)" />
   </component>
 </project>
