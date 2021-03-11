@@ -3,7 +3,7 @@ from rest_framework import routers
 
 
 routers = routers.DefaultRouter()
-routers.register('song', songViewset)
+routers.register(r'song', songViewset, basename='song')
 routers.register('podcast', podcastViewset)
 routers.register('audiobook', audioBookViewset)
 
