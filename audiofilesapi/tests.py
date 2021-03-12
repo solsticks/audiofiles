@@ -1,6 +1,5 @@
 import datetime
 import json
-import unittest
 
 import pytz
 from django.core.exceptions import ValidationError
@@ -231,7 +230,7 @@ class DeleteSinglePodcastTest(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
 
-class dateEntry_test(unittest.TestCase):
+class dateEntry_test(APITestCase):
     def test(self):
         value = utc.localize(datetime.datetime.today() - datetime.timedelta(days=5))
         with self.assertRaises(ValidationError):
