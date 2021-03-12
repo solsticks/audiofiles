@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dbdf7c6-f285-4d72-96a1-5ec010e1df11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audiofiles/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofiles/router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/audiofilesapi/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audiofilesapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/audiofilesapi/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615342492186</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test case updated">
+      <created>1615492070305</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615492070305</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +124,7 @@
     <MESSAGE value="clean up my test cases" />
     <MESSAGE value="made a correction to my endpoint (changed podecast -&gt; podcast)" />
     <MESSAGE value="Code clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code clean up" />
+    <MESSAGE value="test case updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="test case updated" />
   </component>
 </project>

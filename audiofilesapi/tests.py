@@ -55,7 +55,7 @@ class UpdateSingleSongTest(APITestCase):
         self.assertEqual(response.status_code, 200)
 
 
-class DeleteSinglePuppyTest(APITestCase):
+class DeleteSinglsongTest(APITestCase):
     """ Test module for deleting an existing song record """
 
     def setUp(self):
@@ -73,3 +73,5 @@ class DeleteSinglePuppyTest(APITestCase):
         response = self.client.delete(edit_url, kwargs={'pk': 30})
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
+
+""" Test for the audioBook endpoints """
